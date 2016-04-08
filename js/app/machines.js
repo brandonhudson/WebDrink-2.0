@@ -296,6 +296,8 @@ app.controller("MachineCtrl", ['$scope', '$log', '$window', '$timeout', '$interv
 						$log.log(error);
 					}
 				);
+                
+                
 			}
 			else {
 				$scope.dropping_message = response.message;
